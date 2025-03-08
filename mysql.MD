@@ -47,3 +47,11 @@ Select schema
 ```
 use mysql;
 ```
+List tables in the schema
+```
+show tables;
+```
+To see the information in a table
+```
+select * from user;
+```
