@@ -74,7 +74,7 @@ Description = Backend Service
 [Service]
 User=expense
 Environment=DB_HOST="<MYSQL-SERVER-IPADDRESS>"
-ExecStart=/bin/node /app/expenses-tracker/expense-backend-v2/index.js
+ExecStart=/bin/node /root/expenses-tracker/expense-backend-v2/index.js
 SyslogIdentifier=backend
 
 [Install]
