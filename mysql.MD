@@ -34,3 +34,16 @@ Next, We need to change the default root password in order to start using the da
 mysql_secure_installation --set-root-pass ExpenseApp@1
 ```
 That's all
+
+Login to mysql
+```
+mysql -u root -pExpenseApp@1
+```
+To check available schemas 
+```
+show databases;
+```
+Select schema
+```
+use mysql;
+```
