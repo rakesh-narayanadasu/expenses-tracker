@@ -117,3 +117,7 @@ Restart the service.
 ```
 systemctl restart backend
 ```
+Using ping command check backend server able to access database server
+```
+ping <DATABASE-IP-ADDRESS>
+```
