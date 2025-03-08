@@ -9,14 +9,18 @@ Install MySQL Server 8.0.x
 ```
 dnf install mysql-server -y
 ```
+Check MySQL Service status
 
+```
+systemctl status mysqld
+```
 Start MySQL Service
 
 ```
-systemctl enable mysqld
-```
-```
 systemctl start mysqld
+```
+```
+systemctl enable mysqld
 ```
 
 Next, We need to change the default root password in order to start using the database service. Use password ExpenseApp or any other as per your choice.
