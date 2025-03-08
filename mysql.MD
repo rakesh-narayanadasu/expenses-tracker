@@ -22,6 +22,11 @@ systemctl start mysqld
 ```
 systemctl enable mysqld
 ```
+Check mysql port
+```
+sudo dnf install net-tools -y
+netstat -lntp 
+```
 
 Next, We need to change the default root password in order to start using the database service. Use password ```ExpenseApp``` or any other as per your choice.
 
