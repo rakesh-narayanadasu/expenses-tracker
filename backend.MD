@@ -73,7 +73,7 @@ Description = Backend Service
 
 [Service]
 User=expense
-Environment=DB_HOST="<MYSQL-SERVER-IPADDRESS>"
+Environment=DB_HOST="<MYSQL-SERVER-PRIVATE-IPADDRESS>"
 ExecStart=/bin/node /root/expenses-tracker/expense-backend-v2/index.js
 SyslogIdentifier=backend
 
